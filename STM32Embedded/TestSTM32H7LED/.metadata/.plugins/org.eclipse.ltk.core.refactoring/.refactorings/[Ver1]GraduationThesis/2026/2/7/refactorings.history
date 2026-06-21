@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;[Ver1]GraduationThesis/Core/Inc/mfcce_xtract.h&apos; to &apos;mfcc_extract.h&apos;" description="Rename resource &apos;mfcce_xtract.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/mfcce_xtract.h" name="mfcc_extract.h" stamp="1770911685604" updateReferences="true"/>
+</session>

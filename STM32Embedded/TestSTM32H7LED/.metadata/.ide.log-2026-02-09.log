@@ -1,0 +1,5 @@
+2026-02-10 18:32:38,673 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2026-02-10 18:32:43,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2026-02-10 18:32:43,029 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2026-02-10 18:32:46,131 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2026-02-10 18:32:46,131 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

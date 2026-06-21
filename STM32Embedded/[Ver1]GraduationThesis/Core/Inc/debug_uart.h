@@ -1,0 +1,17 @@
+/*
+ * debug_uart.h
+ *
+ *  Created on: May 7, 2026
+ *      Author: edoph
+ */
+
+#ifndef INC_DEBUG_UART_H_
+#define INC_DEBUG_UART_H_
+
+#include "stm32h7xx_hal.h"
+
+void DebugUART_InitTime(void);
+void DebugUART_Log(const char *fmt, ...);
+    
+
+#endif /* INC_DEBUG_UART_H_ */

@@ -1,0 +1,2 @@
+../Drivers/CMSIS/STM32_AI_AudioPreprocessing_Library/Src/window.c:46:9:Window_Init	32	static
+../Drivers/CMSIS/STM32_AI_AudioPreprocessing_Library/Src/window.c:73:6:cosine_sum_window_create	56	static

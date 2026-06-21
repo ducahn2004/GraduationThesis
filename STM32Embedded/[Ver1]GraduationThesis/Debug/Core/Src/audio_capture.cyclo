@@ -1,0 +1,9 @@
+../Core/Src/audio_capture.c:60:13:Audio_InvalidateDCache	3
+../Core/Src/audio_capture.c:73:6:Audio_DebugLog_Process	7
+../Core/Src/audio_capture.c:122:10:RingBuffer_Available	2
+../Core/Src/audio_capture.c:130:9:RingBuffer_Read	3
+../Core/Src/audio_capture.c:151:6:RingBuffer_Flush	1
+../Core/Src/audio_capture.c:155:6:StartAudioCapture	2
+../Core/Src/audio_capture.c:178:13:audio_push_to_ring	4
+../Core/Src/audio_capture.c:215:6:HAL_I2S_RxHalfCpltCallback	2
+../Core/Src/audio_capture.c:239:6:HAL_I2S_RxCpltCallback	2

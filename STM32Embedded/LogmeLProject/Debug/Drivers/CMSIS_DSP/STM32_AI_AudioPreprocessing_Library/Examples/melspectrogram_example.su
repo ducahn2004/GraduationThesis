@@ -1,0 +1,2 @@
+../Drivers/CMSIS_DSP/STM32_AI_AudioPreprocessing_Library/Examples/melspectrogram_example.c:47:6:Preprocessing_Init	8	static
+../Drivers/CMSIS_DSP/STM32_AI_AudioPreprocessing_Library/Examples/melspectrogram_example.c:86:6:AudioPreprocessing_Run	40	static

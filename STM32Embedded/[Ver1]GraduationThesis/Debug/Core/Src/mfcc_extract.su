@@ -1,0 +1,7 @@
+../Core/Src/mfcc_extract.c:110:6:Preprocessing_Init	16	static
+../Core/Src/mfcc_extract.c:229:13:compute_delta_causal	56	static
+../Core/Src/mfcc_extract.c:273:6:compute_mfcc_one_frame	136	static
+../Core/Src/mfcc_extract.c:350:6:compute_mfcc_one_frame_timed	32	static
+../Core/Src/mfcc_extract.c:385:6:MFCC_DebugLog_Window	24	static
+../Core/Src/mfcc_extract.c:404:6:MFCC_DebugReset_Window	8	static
+../Core/Src/mfcc_extract.c:418:6:mfcc_append_frame	32	static

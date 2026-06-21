@@ -1,0 +1,2 @@
+../Drivers/CMSIS_DSP/STM32_AI_AudioPreprocessing_Library/Src/window.c:46:9:Window_Init	5
+../Drivers/CMSIS_DSP/STM32_AI_AudioPreprocessing_Library/Src/window.c:73:6:cosine_sum_window_create	2

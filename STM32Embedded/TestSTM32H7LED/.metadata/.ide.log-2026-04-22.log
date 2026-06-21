@@ -1,0 +1,135 @@
+2026-04-22 20:42:07,578 [INFO] Activator:176 - 
+
+
+2026-04-22 20:42:07,590 [INFO] Activator:177 - !SESSION log4j initialized
+2026-04-22 20:42:34,537 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-04-22 20:42:37,638 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2026-04-22 20:42:37,650 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2026-04-22 20:42:37,651 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2026-04-22 20:56:54,507 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809
+2026-04-22 20:56:54,549 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/mcu/
+2026-04-22 20:56:54,550 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/boardmanager/
+2026-04-22 20:56:54,551 [WARN] ApiDb:259 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/mcufinder/images/
+2026-04-22 20:56:54,591 [INFO] ApiDb:250 - Set database path to: C:\Users\edoph\.stmcufinder\plugins\mcufinder//mcu/
+2026-04-22 20:56:54,593 [INFO] DbMcusAds:125 - Set database path to: C:\Users\edoph\.stmcufinder\plugins\mcufinder//mcu/
+2026-04-22 20:56:55,375 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\edoph\.stmcufinder\plugins\mcufinder//mcu/cs/
+2026-04-22 20:56:55,771 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2026-04-22 20:56:56,490 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/mcu/
+2026-04-22 20:56:56,540 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/boardmanager/
+2026-04-22 20:56:56,540 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/mcufinder/images/
+2026-04-22 20:56:56,555 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\edoph\.stmcufinder\plugins\mcufinder/ => C:\Users\edoph\.stmcufinder\plugins\mcufinder
+2026-04-22 20:56:56,556 [INFO] ApiDb:250 - Set database path to: C:\Users\edoph\.stmcufinder\plugins\mcufinder//mcu/
+2026-04-22 20:56:56,556 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\edoph\.stmcufinder\plugins\mcufinder/ => C:\Users\edoph\.stmcufinder\plugins\mcufinder
+2026-04-22 20:56:56,556 [INFO] DbMcusAds:125 - Set database path to: C:\Users\edoph\.stmcufinder\plugins\mcufinder//mcu/
+2026-04-22 20:56:56,556 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\edoph\.stmcufinder\plugins\mcufinder/ => C:\Users\edoph\.stmcufinder\plugins\mcufinder
+2026-04-22 20:56:56,571 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\edoph\.stmcufinder\plugins\mcufinder/ => C:\Users\edoph\.stmcufinder\plugins\mcufinder
+2026-04-22 20:56:56,758 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-04-22 20:56:56,760 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-04-22 20:56:56,760 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-04-22 20:56:56,764 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-04-22 20:56:56,764 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-04-22 20:56:57,258 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-04-22 20:56:57,260 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-04-22 20:56:57,271 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-04-22 20:56:57,273 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-04-22 20:56:57,273 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-04-22 20:56:57,378 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\edoph\.stmcufinder\plugins\mcufinder//mcu/cs/
+2026-04-22 20:56:58,437 [INFO] MainPanel:272 - HeapMemory: 268435456
+2026-04-22 20:57:00,455 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/mcu/
+2026-04-22 20:57:00,455 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/boardmanager/
+2026-04-22 20:57:00,457 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/mcufinder/images/
+2026-04-22 20:57:00,469 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\edoph\.stmcufinder\plugins\mcufinder/ => C:\Users\edoph\.stmcufinder\plugins\mcufinder
+2026-04-22 20:57:00,469 [INFO] ApiDb:250 - Set database path to: C:\Users\edoph\.stmcufinder\plugins\mcufinder//mcu/
+2026-04-22 20:57:00,469 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\edoph\.stmcufinder\plugins\mcufinder/ => C:\Users\edoph\.stmcufinder\plugins\mcufinder
+2026-04-22 20:57:00,471 [INFO] DbMcusAds:125 - Set database path to: C:\Users\edoph\.stmcufinder\plugins\mcufinder//mcu/
+2026-04-22 20:57:00,471 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\edoph\.stmcufinder\plugins\mcufinder/ => C:\Users\edoph\.stmcufinder\plugins\mcufinder
+2026-04-22 20:57:00,481 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\edoph\.stmcufinder\plugins\mcufinder/ => C:\Users\edoph\.stmcufinder\plugins\mcufinder
+2026-04-22 20:57:01,369 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\edoph\.stmcufinder\plugins\mcufinder//mcu/cs/
+2026-04-22 20:57:01,486 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809
+2026-04-22 20:57:01,490 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2026-04-22 20:57:01,498 [INFO] PluginManage:310 - Check plugin analytics
+2026-04-22 20:57:04,454 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: STM32CubeMX.6.14.0
+2026-04-22 20:57:04,483 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: STMicroelectronics.X-CUBE-AI.3.3.0,STMicroelectronics.X-CUBE-AI.10.1.0,STMicroelectronics.X-CUBE-AI.10.2.0
+2026-04-22 20:57:04,484 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: FW.F4.1.28.0,FW.H7.1.12.0
+2026-04-22 20:57:04,504 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2026-04-22 20:57:04,506 [INFO] PluginManage:310 - Check plugin cadmodel
+2026-04-22 20:57:04,582 [INFO] CADModel:105 - Init CAD model plugin
+2026-04-22 20:57:04,582 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2026-04-22 20:57:04,582 [INFO] PluginManage:310 - Check plugin clock
+2026-04-22 20:57:04,738 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2026-04-22 20:57:04,740 [INFO] PluginManage:310 - Check plugin ddr
+2026-04-22 20:57:04,799 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2026-04-22 20:57:04,800 [INFO] PluginManage:310 - Check plugin filemanager
+2026-04-22 20:57:05,678 [FATAL] PluginManage:371 - Exception caught
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at com.st.microxplorer.plugin.PluginManage.loadPluginJar(PluginManage.java:352) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugin.PluginManage.PluginSearch(PluginManage.java:224) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugin.PluginManage.PluginDiscovery(PluginManage.java:67) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.initialization(MainPanel.java:329) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.AppletMainFrameCubeIde.init(AppletMainFrameCubeIde.java:242) ~[STM32CubeMX.jar:?]
+	at com.st.stm32cube.common.mx.core.CubeMxInstance.<init>(CubeMxInstance.java:117) ~[com.st.stm32cube.common.mx_6.13.0.202411220809/:?]
+	at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:91) ~[com.st.stm32cube.common.mx_6.13.0.202411220809/:?]
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:25) ~[com.st.stm32cube.common.mx_6.13.0.202411220809/:?]
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16) ~[com.st.stm32cube.common.mx_6.13.0.202411220809/:?]
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100) ~[?:?]
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32) ~[?:?]
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79) ~[?:?]
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55) ~[?:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47) ~[org.eclipse.equinox.common_3.18.200.v20231106-1826.jar:?]
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762) ~[?:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[?:?]
+Caused by: java.io.IOException: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\STM32CubeMX.jar
+	at org.eclipse.osgi.storage.bundlefile.CloseableBundleFile$BundleEntryInputStream.enrichExceptionWithBaseFile(CloseableBundleFile.java:570) ~[?:?]
+	at org.eclipse.osgi.storage.bundlefile.CloseableBundleFile$BundleEntryInputStream.read(CloseableBundleFile.java:534) ~[?:?]
+	at org.apache.xerces.impl.XMLEntityManager$RewindableInputStream.read(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.impl.XMLEntityScanner.skipSpaces(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.impl.XMLDocumentScannerImpl$TrailingMiscDispatcher.dispatch(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[STM32CubeMX.jar:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122) ~[?:?]
+	at tool.Tool.setProjectNatureDocument(Tool.java:499) ~[STM32CubeMX.jar:?]
+	at tool.Tool.<init>(Tool.java:75) ~[STM32CubeMX.jar:?]
+	at convertor.Convertor.<init>(Convertor.java:165) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.model.ToolchainGenerator.<init>(ToolchainGenerator.java:105) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.<init>(ConfigFileManager.java:274) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.<init>(ProjectBuilder.java:234) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager.<init>(MainProjectManager.java:143) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.<init>(FileManagerView.java:121) ~[filemanager.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	... 18 more
+Caused by: java.io.IOException: Stream closed
+	at java.util.zip.InflaterInputStream.ensureOpen(InflaterInputStream.java:68) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:154) ~[?:?]
+	at java.io.FilterInputStream.read(FilterInputStream.java:119) ~[?:?]
+	at org.eclipse.osgi.storage.bundlefile.CloseableBundleFile$BundleEntryInputStream.read(CloseableBundleFile.java:532) ~[?:?]
+	at org.apache.xerces.impl.XMLEntityManager$RewindableInputStream.read(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.impl.XMLEntityScanner.skipSpaces(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.impl.XMLDocumentScannerImpl$TrailingMiscDispatcher.dispatch(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[STM32CubeMX.jar:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[STM32CubeMX.jar:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122) ~[?:?]
+	at tool.Tool.setProjectNatureDocument(Tool.java:499) ~[STM32CubeMX.jar:?]
+	at tool.Tool.<init>(Tool.java:75) ~[STM32CubeMX.jar:?]
+	at convertor.Convertor.<init>(Convertor.java:165) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.model.ToolchainGenerator.<init>(ToolchainGenerator.java:105) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.<init>(ConfigFileManager.java:274) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.<init>(ProjectBuilder.java:234) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager.<init>(MainProjectManager.java:143) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.<init>(FileManagerView.java:121) ~[filemanager.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	... 18 more

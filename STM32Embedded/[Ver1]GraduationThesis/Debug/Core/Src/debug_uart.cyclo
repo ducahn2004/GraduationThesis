@@ -1,0 +1,2 @@
+../Core/Src/debug_uart.c:17:6:DebugUART_InitTime	1
+../Core/Src/debug_uart.c:22:6:DebugUART_Log	1
