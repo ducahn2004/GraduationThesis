@@ -1,0 +1,1734 @@
+{
+  "schema_version": 1,
+  "summary": {
+    "total_onnx_node_outputs": 55,
+    "direct_count": 19,
+    "rewritten_count": 13,
+    "inferred_count": 5,
+    "missing_count": 18,
+    "rewritten_but_missing_count": 0,
+    "lineage_event_count": 46
+  },
+  "lineage_events": [
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "onnx::Conv_129",
+        "onnx::Conv_130",
+        "onnx::Conv_132",
+        "onnx::Conv_133",
+        "onnx::Conv_135",
+        "onnx::Conv_136",
+        "onnx::Conv_138",
+        "onnx::Conv_139",
+        "onnx::Conv_141",
+        "onnx::Conv_142",
+        "onnx::Conv_144",
+        "onnx::Conv_145",
+        "onnx::Conv_147",
+        "onnx::Conv_148",
+        "onnx::Conv_150",
+        "onnx::Conv_151",
+        "onnx::Conv_153",
+        "onnx::Conv_154",
+        "se.fc.0.weight",
+        "se.fc.0.bias",
+        "se.fc.2.weight",
+        "se.fc.2.bias",
+        "head.3.weight",
+        "head.3.bias",
+        "wa/Constant_output_0",
+        "wa/stem/stem.2/Constant_output_0",
+        "wa/stem/stem.2/Constant_1_output_0",
+        "wa/ds1/act/Constant_output_0",
+        "wa/ds1/act/Constant_1_output_0",
+        "wa/ds2/act/Constant_output_0",
+        "wa/ds2/act/Constant_1_output_0",
+        "wa/ds3/act/Constant_output_0",
+        "wa/ds3/act/Constant_1_output_0",
+        "wa/ds4/act/Constant_output_0",
+        "wa/ds4/act/Constant_1_output_0",
+        "wa/se/Constant_output_0",
+        "wa/se/Constant_1_output_0",
+        "onnx____Unsqueeze_104",
+        "onnx____Unsqueeze_106",
+        "onnx____Unsqueeze_114",
+        "onnx____Unsqueeze_116",
+        "wa/ds1/dw/Conv_output_0",
+        "wa/ds1/dw/Conv_output_0_perm",
+        "wa/ds1/pw/Conv_input_nhwc",
+        "wa/ds2/dw/Conv_output_0",
+        "wa/ds2/dw/Conv_output_0_perm",
+        "wa/ds2/pw/Conv_input_nhwc",
+        "wa/ds3/dw/Conv_output_0",
+        "wa/ds3/dw/Conv_output_0_perm",
+        "wa/ds3/pw/Conv_input_nhwc",
+        "wa/ds4/dw/Conv_output_0",
+        "wa/ds4/dw/Conv_output_0_perm",
+        "wa/ds4/pw/Conv_input_nhwc"
+      ],
+      "event_index": 0
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 1
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 2
+    },
+    {
+      "kind": "replace_input",
+      "src_name": "wa/stem/stem.0/Conv_output_0",
+      "dst_name": "wa/stem/stem.0/Conv_output_nhwc",
+      "source": "set_operator_inputs",
+      "event_index": 3
+    },
+    {
+      "kind": "rename_tensor",
+      "old_name": "wa/stem/stem.2/Clip_output_0",
+      "new_name": "wa/ds1/dw/Conv_input_nhwc",
+      "source": "set_operator_outputs",
+      "event_index": 4
+    },
+    {
+      "kind": "replace_input",
+      "src_name": "wa/ds1/pw/Conv_output_0",
+      "dst_name": "wa/ds1/pw/Conv_output_nhwc",
+      "source": "set_operator_inputs",
+      "event_index": 5
+    },
+    {
+      "kind": "rename_tensor",
+      "old_name": "wa/ds1/act/Clip_output_0",
+      "new_name": "wa/ds2/dw/Conv_input_nhwc",
+      "source": "set_operator_outputs",
+      "event_index": 6
+    },
+    {
+      "kind": "replace_input",
+      "src_name": "wa/ds2/pw/Conv_output_0",
+      "dst_name": "wa/ds2/pw/Conv_output_nhwc",
+      "source": "set_operator_inputs",
+      "event_index": 7
+    },
+    {
+      "kind": "rename_tensor",
+      "old_name": "wa/ds2/act/Clip_output_0",
+      "new_name": "wa/ds3/dw/Conv_input_nhwc",
+      "source": "set_operator_outputs",
+      "event_index": 8
+    },
+    {
+      "kind": "replace_input",
+      "src_name": "wa/ds3/pw/Conv_output_0",
+      "dst_name": "wa/ds3/pw/Conv_output_nhwc",
+      "source": "set_operator_inputs",
+      "event_index": 9
+    },
+    {
+      "kind": "rename_tensor",
+      "old_name": "wa/ds3/act/Clip_output_0",
+      "new_name": "wa/ds4/dw/Conv_input_nhwc",
+      "source": "set_operator_outputs",
+      "event_index": 10
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "wa/stem/stem.0/Conv_output_0",
+        "wa/stem/stem.0/Conv_output_0_perm",
+        "wa/stem/stem.2/Clip_output_0",
+        "wa/ds1/dw/Conv_input_nhwc_perm",
+        "wa/ds1/pw/Conv_output_0",
+        "wa/ds1/pw/Conv_output_0_perm",
+        "wa/ds1/act/Clip_output_0",
+        "wa/ds2/dw/Conv_input_nhwc_perm",
+        "wa/ds2/pw/Conv_output_0",
+        "wa/ds2/pw/Conv_output_0_perm",
+        "wa/ds2/act/Clip_output_0",
+        "wa/ds3/dw/Conv_input_nhwc_perm",
+        "wa/ds3/pw/Conv_output_0",
+        "wa/ds3/pw/Conv_output_0_perm",
+        "wa/ds3/act/Clip_output_0",
+        "wa/ds4/dw/Conv_input_nhwc_perm"
+      ],
+      "event_index": 11
+    },
+    {
+      "kind": "replace_input",
+      "src_name": "wa/se/Unsqueeze_2_output_0",
+      "dst_name": "wa/se/Unsqueeze_output_0",
+      "event_index": 12
+    },
+    {
+      "kind": "replace_input",
+      "src_name": "wa/se/Unsqueeze_3_output_0",
+      "dst_name": "wa/se/Unsqueeze_1_output_0",
+      "event_index": 13
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "wa/se/Unsqueeze_2_output_0",
+        "wa/se/Unsqueeze_2_output_0_unsqueeze_shape",
+        "wa/se/Unsqueeze_3_output_0",
+        "wa/se/Unsqueeze_3_output_0_unsqueeze_shape"
+      ],
+      "event_index": 14
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 15
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 16
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 17
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 18
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 19
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 20
+    },
+    {
+      "kind": "rename_tensor",
+      "old_name": "wa/stem/stem.0/Conv_output_nhwc",
+      "new_name": "wa/ds1/dw/Conv_input_nhwc",
+      "source": "set_operator_outputs",
+      "event_index": 21
+    },
+    {
+      "kind": "fuse_conv_activation",
+      "conv_op_type": "CONV_2D",
+      "activation_op_type": "RELU6",
+      "fused_activation": "RELU6",
+      "conv_output": "wa/stem/stem.0/Conv_output_nhwc",
+      "fused_output": "wa/ds1/dw/Conv_input_nhwc",
+      "event_index": 22
+    },
+    {
+      "kind": "rename_tensor",
+      "old_name": "wa/ds1/pw/Conv_output_nhwc",
+      "new_name": "wa/ds2/dw/Conv_input_nhwc",
+      "source": "set_operator_outputs",
+      "event_index": 23
+    },
+    {
+      "kind": "fuse_conv_activation",
+      "conv_op_type": "CONV_2D",
+      "activation_op_type": "RELU6",
+      "fused_activation": "RELU6",
+      "conv_output": "wa/ds1/pw/Conv_output_nhwc",
+      "fused_output": "wa/ds2/dw/Conv_input_nhwc",
+      "event_index": 24
+    },
+    {
+      "kind": "rename_tensor",
+      "old_name": "wa/ds2/pw/Conv_output_nhwc",
+      "new_name": "wa/ds3/dw/Conv_input_nhwc",
+      "source": "set_operator_outputs",
+      "event_index": 25
+    },
+    {
+      "kind": "fuse_conv_activation",
+      "conv_op_type": "CONV_2D",
+      "activation_op_type": "RELU6",
+      "fused_activation": "RELU6",
+      "conv_output": "wa/ds2/pw/Conv_output_nhwc",
+      "fused_output": "wa/ds3/dw/Conv_input_nhwc",
+      "event_index": 26
+    },
+    {
+      "kind": "rename_tensor",
+      "old_name": "wa/ds3/pw/Conv_output_nhwc",
+      "new_name": "wa/ds4/dw/Conv_input_nhwc",
+      "source": "set_operator_outputs",
+      "event_index": 27
+    },
+    {
+      "kind": "fuse_conv_activation",
+      "conv_op_type": "CONV_2D",
+      "activation_op_type": "RELU6",
+      "fused_activation": "RELU6",
+      "conv_output": "wa/ds3/pw/Conv_output_nhwc",
+      "fused_output": "wa/ds4/dw/Conv_input_nhwc",
+      "event_index": 28
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "wa/stem/stem.0/Conv_output_nhwc",
+        "wa/ds1/pw/Conv_output_nhwc",
+        "wa/ds2/pw/Conv_output_nhwc",
+        "wa/ds3/pw/Conv_output_nhwc"
+      ],
+      "event_index": 29
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 30
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 31
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 32
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 33
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 34
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 35
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "wa/stem/stem.0/Conv_input_nhwc_perm"
+      ],
+      "event_index": 36
+    },
+    {
+      "kind": "replace_input",
+      "src_name": "wa/se/Unsqueeze_output_0",
+      "dst_name": "wa/se/Gather_output_0",
+      "event_index": 37
+    },
+    {
+      "kind": "replace_input",
+      "src_name": "wa/se/Unsqueeze_1_output_0",
+      "dst_name": "wa/se/Gather_1_output_0",
+      "event_index": 38
+    },
+    {
+      "kind": "replace_input",
+      "src_name": "wa/Unsqueeze_output_0",
+      "dst_name": "input_onnx_ncx_internal",
+      "source": "set_operator_inputs",
+      "event_index": 39
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "wa/Unsqueeze_output_0",
+        "wa/se/Unsqueeze_output_0",
+        "wa/se/Unsqueeze_output_0_unsqueeze_shape",
+        "wa/se/Unsqueeze_1_output_0",
+        "wa/se/Unsqueeze_1_output_0_unsqueeze_shape"
+      ],
+      "event_index": 40
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "wa/Unsqueeze_output_0_unsqueeze_input_shape",
+        "wa/Unsqueeze_output_0_unsqueeze_prefix_1",
+        "wa/Unsqueeze_output_0_unsqueeze_prefix_begin_1",
+        "wa/Unsqueeze_output_0_unsqueeze_prefix_size_1",
+        "wa/Unsqueeze_output_0_unsqueeze_suffix_1",
+        "wa/Unsqueeze_output_0_unsqueeze_suffix_begin_1",
+        "wa/Unsqueeze_output_0_unsqueeze_suffix_size_1",
+        "wa/Unsqueeze_output_0_unsqueeze_one_1",
+        "wa/Unsqueeze_output_0_unsqueeze_shape_merged_1"
+      ],
+      "event_index": 41
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "__nhwc_to_nchw_perm_rank4__"
+      ],
+      "event_index": 42
+    },
+    {
+      "kind": "fold_constant_cast",
+      "input_name": "wa/se/Constant_2_output_0",
+      "output_name": "wa/se/Concat_1_output_0_concat_input2_int32",
+      "out_dtype": "INT32",
+      "event_index": 43
+    },
+    {
+      "kind": "fold_constant_cast",
+      "input_name": "wa/se/Constant_3_output_0",
+      "output_name": "wa/se/Concat_1_output_0_concat_input3_int32",
+      "out_dtype": "INT32",
+      "event_index": 44
+    },
+    {
+      "kind": "prune_unused_tensors",
+      "removed_names": [
+        "wa/se/Constant_2_output_0",
+        "wa/se/Constant_3_output_0"
+      ],
+      "event_index": 45
+    }
+  ],
+  "records": [
+    {
+      "identifier": 1,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/Constant",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/Constant_output_0",
+      "resolved_tflite_tensor_name": "input_onnx_ncx_internal",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 0,
+      "producer_op_type": "TRANSPOSE",
+      "assume_channel_last_layout": false,
+      "status": "inferred",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": null,
+          "kind": "inferred_via_downstream",
+          "from": "wa/Constant_output_0",
+          "to": "input_onnx_ncx_internal",
+          "via_onnx_output": "wa/Unsqueeze_output_0",
+          "hops": 1
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/Constant_output_0",
+        "input_onnx_ncx_internal"
+      ],
+      "inferred_from_onnx_output_name": "wa/Unsqueeze_output_0",
+      "inferred_hops": 1
+    },
+    {
+      "identifier": 2,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/stem/stem.2/Constant",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/stem/stem.2/Constant_output_0",
+      "resolved_tflite_tensor_name": "wa/stem/stem.2/Constant_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/stem/stem.2/Constant_output_0"
+      ]
+    },
+    {
+      "identifier": 3,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/stem/stem.2/Constant_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/stem/stem.2/Constant_1_output_0",
+      "resolved_tflite_tensor_name": "wa/stem/stem.2/Constant_1_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/stem/stem.2/Constant_1_output_0"
+      ]
+    },
+    {
+      "identifier": 4,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/ds1/act/Constant",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds1/act/Constant_output_0",
+      "resolved_tflite_tensor_name": "wa/ds1/act/Constant_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds1/act/Constant_output_0"
+      ]
+    },
+    {
+      "identifier": 5,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/ds1/act/Constant_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds1/act/Constant_1_output_0",
+      "resolved_tflite_tensor_name": "wa/ds1/act/Constant_1_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds1/act/Constant_1_output_0"
+      ]
+    },
+    {
+      "identifier": 6,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/ds2/act/Constant",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds2/act/Constant_output_0",
+      "resolved_tflite_tensor_name": "wa/ds2/act/Constant_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds2/act/Constant_output_0"
+      ]
+    },
+    {
+      "identifier": 7,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/ds2/act/Constant_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds2/act/Constant_1_output_0",
+      "resolved_tflite_tensor_name": "wa/ds2/act/Constant_1_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds2/act/Constant_1_output_0"
+      ]
+    },
+    {
+      "identifier": 8,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/ds3/act/Constant",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds3/act/Constant_output_0",
+      "resolved_tflite_tensor_name": "wa/ds3/act/Constant_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds3/act/Constant_output_0"
+      ]
+    },
+    {
+      "identifier": 9,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/ds3/act/Constant_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds3/act/Constant_1_output_0",
+      "resolved_tflite_tensor_name": "wa/ds3/act/Constant_1_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds3/act/Constant_1_output_0"
+      ]
+    },
+    {
+      "identifier": 10,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/ds4/act/Constant",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds4/act/Constant_output_0",
+      "resolved_tflite_tensor_name": "wa/ds4/act/Constant_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds4/act/Constant_output_0"
+      ]
+    },
+    {
+      "identifier": 11,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/ds4/act/Constant_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds4/act/Constant_1_output_0",
+      "resolved_tflite_tensor_name": "wa/ds4/act/Constant_1_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds4/act/Constant_1_output_0"
+      ]
+    },
+    {
+      "identifier": 12,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/se/Constant",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Constant_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Constant_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Constant_output_0"
+      ]
+    },
+    {
+      "identifier": 13,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/se/Constant_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Constant_1_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Constant_1_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Constant_1_output_0"
+      ]
+    },
+    {
+      "identifier": 14,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "Constant_52",
+      "onnx_output_index": 0,
+      "onnx_output_name": "onnx____Unsqueeze_104",
+      "resolved_tflite_tensor_name": "wa/se/Gather_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 19,
+      "producer_op_type": "GATHER",
+      "assume_channel_last_layout": false,
+      "status": "inferred",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": null,
+          "kind": "inferred_via_downstream",
+          "from": "onnx____Unsqueeze_104",
+          "to": "wa/se/Gather_output_0",
+          "via_onnx_output": "wa/se/Unsqueeze_output_0",
+          "hops": 1
+        }
+      ],
+      "rewrite_name_chain": [
+        "onnx____Unsqueeze_104",
+        "wa/se/Gather_output_0"
+      ],
+      "inferred_from_onnx_output_name": "wa/se/Unsqueeze_output_0",
+      "inferred_hops": 1
+    },
+    {
+      "identifier": 15,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "Constant_54",
+      "onnx_output_index": 0,
+      "onnx_output_name": "onnx____Unsqueeze_106",
+      "resolved_tflite_tensor_name": "wa/se/Gather_1_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 20,
+      "producer_op_type": "GATHER",
+      "assume_channel_last_layout": false,
+      "status": "inferred",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": null,
+          "kind": "inferred_via_downstream",
+          "from": "onnx____Unsqueeze_106",
+          "to": "wa/se/Gather_1_output_0",
+          "via_onnx_output": "wa/se/Unsqueeze_1_output_0",
+          "hops": 1
+        }
+      ],
+      "rewrite_name_chain": [
+        "onnx____Unsqueeze_106",
+        "wa/se/Gather_1_output_0"
+      ],
+      "inferred_from_onnx_output_name": "wa/se/Unsqueeze_1_output_0",
+      "inferred_hops": 1
+    },
+    {
+      "identifier": 16,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "Constant_62",
+      "onnx_output_index": 0,
+      "onnx_output_name": "onnx____Unsqueeze_114",
+      "resolved_tflite_tensor_name": "wa/se/Gather_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 19,
+      "producer_op_type": "GATHER",
+      "assume_channel_last_layout": false,
+      "status": "inferred",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": null,
+          "kind": "inferred_via_downstream",
+          "from": "onnx____Unsqueeze_114",
+          "to": "wa/se/Gather_output_0",
+          "via_onnx_output": "wa/se/Unsqueeze_2_output_0",
+          "hops": 1
+        }
+      ],
+      "rewrite_name_chain": [
+        "onnx____Unsqueeze_114",
+        "wa/se/Gather_output_0"
+      ],
+      "inferred_from_onnx_output_name": "wa/se/Unsqueeze_2_output_0",
+      "inferred_hops": 1
+    },
+    {
+      "identifier": 17,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "Constant_64",
+      "onnx_output_index": 0,
+      "onnx_output_name": "onnx____Unsqueeze_116",
+      "resolved_tflite_tensor_name": "wa/se/Gather_1_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 20,
+      "producer_op_type": "GATHER",
+      "assume_channel_last_layout": false,
+      "status": "inferred",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": null,
+          "kind": "inferred_via_downstream",
+          "from": "onnx____Unsqueeze_116",
+          "to": "wa/se/Gather_1_output_0",
+          "via_onnx_output": "wa/se/Unsqueeze_3_output_0",
+          "hops": 1
+        }
+      ],
+      "rewrite_name_chain": [
+        "onnx____Unsqueeze_116",
+        "wa/se/Gather_1_output_0"
+      ],
+      "inferred_from_onnx_output_name": "wa/se/Unsqueeze_3_output_0",
+      "inferred_hops": 1
+    },
+    {
+      "identifier": 18,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/se/Constant_2",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Constant_2_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Constant_2_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Constant_2_output_0"
+      ]
+    },
+    {
+      "identifier": 19,
+      "onnx_op_type": "Constant",
+      "onnx_op_name": "wa/se/Constant_3",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Constant_3_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Constant_3_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Constant_3_output_0"
+      ]
+    },
+    {
+      "identifier": 20,
+      "onnx_op_type": "Unsqueeze",
+      "onnx_op_name": "wa/Unsqueeze",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/Unsqueeze_output_0",
+      "resolved_tflite_tensor_name": "input_onnx_ncx_internal",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 0,
+      "producer_op_type": "TRANSPOSE",
+      "assume_channel_last_layout": false,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 39,
+          "kind": "replace_input",
+          "from": "wa/Unsqueeze_output_0",
+          "to": "input_onnx_ncx_internal"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/Unsqueeze_output_0",
+        "input_onnx_ncx_internal"
+      ]
+    },
+    {
+      "identifier": 21,
+      "onnx_op_type": "Conv",
+      "onnx_op_name": "wa/stem/stem.0/Conv",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/stem/stem.0/Conv_output_0",
+      "resolved_tflite_tensor_name": "wa/ds1/dw/Conv_input_nhwc",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 3,
+      "producer_op_type": "CONV_2D",
+      "assume_channel_last_layout": true,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 3,
+          "kind": "replace_input",
+          "from": "wa/stem/stem.0/Conv_output_0",
+          "to": "wa/stem/stem.0/Conv_output_nhwc"
+        },
+        {
+          "event_index": 21,
+          "kind": "rename_tensor",
+          "from": "wa/stem/stem.0/Conv_output_nhwc",
+          "to": "wa/ds1/dw/Conv_input_nhwc"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/stem/stem.0/Conv_output_0",
+        "wa/stem/stem.0/Conv_output_nhwc",
+        "wa/ds1/dw/Conv_input_nhwc"
+      ]
+    },
+    {
+      "identifier": 22,
+      "onnx_op_type": "Clip",
+      "onnx_op_name": "wa/stem/stem.2/Clip",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/stem/stem.2/Clip_output_0",
+      "resolved_tflite_tensor_name": "wa/ds1/dw/Conv_input_nhwc",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 3,
+      "producer_op_type": "CONV_2D",
+      "assume_channel_last_layout": true,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 4,
+          "kind": "rename_tensor",
+          "from": "wa/stem/stem.2/Clip_output_0",
+          "to": "wa/ds1/dw/Conv_input_nhwc"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/stem/stem.2/Clip_output_0",
+        "wa/ds1/dw/Conv_input_nhwc"
+      ]
+    },
+    {
+      "identifier": 23,
+      "onnx_op_type": "Conv",
+      "onnx_op_name": "wa/ds1/dw/Conv",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds1/dw/Conv_output_0",
+      "resolved_tflite_tensor_name": "wa/ds1/dw/Conv_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds1/dw/Conv_output_0"
+      ]
+    },
+    {
+      "identifier": 24,
+      "onnx_op_type": "Conv",
+      "onnx_op_name": "wa/ds1/pw/Conv",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds1/pw/Conv_output_0",
+      "resolved_tflite_tensor_name": "wa/ds2/dw/Conv_input_nhwc",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 6,
+      "producer_op_type": "CONV_2D",
+      "assume_channel_last_layout": true,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 5,
+          "kind": "replace_input",
+          "from": "wa/ds1/pw/Conv_output_0",
+          "to": "wa/ds1/pw/Conv_output_nhwc"
+        },
+        {
+          "event_index": 23,
+          "kind": "rename_tensor",
+          "from": "wa/ds1/pw/Conv_output_nhwc",
+          "to": "wa/ds2/dw/Conv_input_nhwc"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/ds1/pw/Conv_output_0",
+        "wa/ds1/pw/Conv_output_nhwc",
+        "wa/ds2/dw/Conv_input_nhwc"
+      ]
+    },
+    {
+      "identifier": 25,
+      "onnx_op_type": "Clip",
+      "onnx_op_name": "wa/ds1/act/Clip",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds1/act/Clip_output_0",
+      "resolved_tflite_tensor_name": "wa/ds2/dw/Conv_input_nhwc",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 6,
+      "producer_op_type": "CONV_2D",
+      "assume_channel_last_layout": true,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 6,
+          "kind": "rename_tensor",
+          "from": "wa/ds1/act/Clip_output_0",
+          "to": "wa/ds2/dw/Conv_input_nhwc"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/ds1/act/Clip_output_0",
+        "wa/ds2/dw/Conv_input_nhwc"
+      ]
+    },
+    {
+      "identifier": 26,
+      "onnx_op_type": "Conv",
+      "onnx_op_name": "wa/ds2/dw/Conv",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds2/dw/Conv_output_0",
+      "resolved_tflite_tensor_name": "wa/ds2/dw/Conv_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds2/dw/Conv_output_0"
+      ]
+    },
+    {
+      "identifier": 27,
+      "onnx_op_type": "Conv",
+      "onnx_op_name": "wa/ds2/pw/Conv",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds2/pw/Conv_output_0",
+      "resolved_tflite_tensor_name": "wa/ds3/dw/Conv_input_nhwc",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 9,
+      "producer_op_type": "CONV_2D",
+      "assume_channel_last_layout": true,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 7,
+          "kind": "replace_input",
+          "from": "wa/ds2/pw/Conv_output_0",
+          "to": "wa/ds2/pw/Conv_output_nhwc"
+        },
+        {
+          "event_index": 25,
+          "kind": "rename_tensor",
+          "from": "wa/ds2/pw/Conv_output_nhwc",
+          "to": "wa/ds3/dw/Conv_input_nhwc"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/ds2/pw/Conv_output_0",
+        "wa/ds2/pw/Conv_output_nhwc",
+        "wa/ds3/dw/Conv_input_nhwc"
+      ]
+    },
+    {
+      "identifier": 28,
+      "onnx_op_type": "Clip",
+      "onnx_op_name": "wa/ds2/act/Clip",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds2/act/Clip_output_0",
+      "resolved_tflite_tensor_name": "wa/ds3/dw/Conv_input_nhwc",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 9,
+      "producer_op_type": "CONV_2D",
+      "assume_channel_last_layout": true,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 8,
+          "kind": "rename_tensor",
+          "from": "wa/ds2/act/Clip_output_0",
+          "to": "wa/ds3/dw/Conv_input_nhwc"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/ds2/act/Clip_output_0",
+        "wa/ds3/dw/Conv_input_nhwc"
+      ]
+    },
+    {
+      "identifier": 29,
+      "onnx_op_type": "Conv",
+      "onnx_op_name": "wa/ds3/dw/Conv",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds3/dw/Conv_output_0",
+      "resolved_tflite_tensor_name": "wa/ds3/dw/Conv_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds3/dw/Conv_output_0"
+      ]
+    },
+    {
+      "identifier": 30,
+      "onnx_op_type": "Conv",
+      "onnx_op_name": "wa/ds3/pw/Conv",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds3/pw/Conv_output_0",
+      "resolved_tflite_tensor_name": "wa/ds4/dw/Conv_input_nhwc",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 11,
+      "producer_op_type": "CONV_2D",
+      "assume_channel_last_layout": true,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 9,
+          "kind": "replace_input",
+          "from": "wa/ds3/pw/Conv_output_0",
+          "to": "wa/ds3/pw/Conv_output_nhwc"
+        },
+        {
+          "event_index": 27,
+          "kind": "rename_tensor",
+          "from": "wa/ds3/pw/Conv_output_nhwc",
+          "to": "wa/ds4/dw/Conv_input_nhwc"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/ds3/pw/Conv_output_0",
+        "wa/ds3/pw/Conv_output_nhwc",
+        "wa/ds4/dw/Conv_input_nhwc"
+      ]
+    },
+    {
+      "identifier": 31,
+      "onnx_op_type": "Clip",
+      "onnx_op_name": "wa/ds3/act/Clip",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds3/act/Clip_output_0",
+      "resolved_tflite_tensor_name": "wa/ds4/dw/Conv_input_nhwc",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 11,
+      "producer_op_type": "CONV_2D",
+      "assume_channel_last_layout": true,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 10,
+          "kind": "rename_tensor",
+          "from": "wa/ds3/act/Clip_output_0",
+          "to": "wa/ds4/dw/Conv_input_nhwc"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/ds3/act/Clip_output_0",
+        "wa/ds4/dw/Conv_input_nhwc"
+      ]
+    },
+    {
+      "identifier": 32,
+      "onnx_op_type": "Conv",
+      "onnx_op_name": "wa/ds4/dw/Conv",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds4/dw/Conv_output_0",
+      "resolved_tflite_tensor_name": "wa/ds4/dw/Conv_output_0",
+      "exists_in_final_model": false,
+      "is_graph_output": false,
+      "consumer_count": 0,
+      "producer_operator_index": null,
+      "producer_op_type": null,
+      "assume_channel_last_layout": false,
+      "status": "missing",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds4/dw/Conv_output_0"
+      ]
+    },
+    {
+      "identifier": 33,
+      "onnx_op_type": "Conv",
+      "onnx_op_name": "wa/ds4/pw/Conv",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds4/pw/Conv_output_0",
+      "resolved_tflite_tensor_name": "wa/ds4/pw/Conv_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 14,
+      "producer_op_type": "TRANSPOSE",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds4/pw/Conv_output_0"
+      ]
+    },
+    {
+      "identifier": 34,
+      "onnx_op_type": "Clip",
+      "onnx_op_name": "wa/ds4/act/Clip",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/ds4/act/Clip_output_0",
+      "resolved_tflite_tensor_name": "wa/ds4/act/Clip_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 4,
+      "producer_operator_index": 15,
+      "producer_op_type": "RELU6",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/ds4/act/Clip_output_0"
+      ]
+    },
+    {
+      "identifier": 35,
+      "onnx_op_type": "Shape",
+      "onnx_op_name": "wa/se/Shape",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Shape_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Shape_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 16,
+      "producer_op_type": "SHAPE",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Shape_output_0"
+      ]
+    },
+    {
+      "identifier": 36,
+      "onnx_op_type": "Shape",
+      "onnx_op_name": "wa/se/Shape_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Shape_1_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Shape_1_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 17,
+      "producer_op_type": "SHAPE",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Shape_1_output_0"
+      ]
+    },
+    {
+      "identifier": 37,
+      "onnx_op_type": "GlobalAveragePool",
+      "onnx_op_name": "wa/se/gap/GlobalAveragePool",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/gap/GlobalAveragePool_output_0",
+      "resolved_tflite_tensor_name": "wa/se/gap/GlobalAveragePool_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 18,
+      "producer_op_type": "MEAN",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/gap/GlobalAveragePool_output_0"
+      ]
+    },
+    {
+      "identifier": 38,
+      "onnx_op_type": "Gather",
+      "onnx_op_name": "wa/se/Gather",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Gather_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Gather_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 19,
+      "producer_op_type": "GATHER",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Gather_output_0"
+      ]
+    },
+    {
+      "identifier": 39,
+      "onnx_op_type": "Gather",
+      "onnx_op_name": "wa/se/Gather_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Gather_1_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Gather_1_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 20,
+      "producer_op_type": "GATHER",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Gather_1_output_0"
+      ]
+    },
+    {
+      "identifier": 40,
+      "onnx_op_type": "Unsqueeze",
+      "onnx_op_name": "wa/se/Unsqueeze",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Unsqueeze_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Gather_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 19,
+      "producer_op_type": "GATHER",
+      "assume_channel_last_layout": false,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 37,
+          "kind": "replace_input",
+          "from": "wa/se/Unsqueeze_output_0",
+          "to": "wa/se/Gather_output_0"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/se/Unsqueeze_output_0",
+        "wa/se/Gather_output_0"
+      ]
+    },
+    {
+      "identifier": 41,
+      "onnx_op_type": "Unsqueeze",
+      "onnx_op_name": "wa/se/Unsqueeze_2",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Unsqueeze_2_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Gather_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 19,
+      "producer_op_type": "GATHER",
+      "assume_channel_last_layout": false,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 12,
+          "kind": "replace_input",
+          "from": "wa/se/Unsqueeze_2_output_0",
+          "to": "wa/se/Unsqueeze_output_0"
+        },
+        {
+          "event_index": 37,
+          "kind": "replace_input",
+          "from": "wa/se/Unsqueeze_output_0",
+          "to": "wa/se/Gather_output_0"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/se/Unsqueeze_2_output_0",
+        "wa/se/Unsqueeze_output_0",
+        "wa/se/Gather_output_0"
+      ]
+    },
+    {
+      "identifier": 42,
+      "onnx_op_type": "Unsqueeze",
+      "onnx_op_name": "wa/se/Unsqueeze_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Unsqueeze_1_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Gather_1_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 20,
+      "producer_op_type": "GATHER",
+      "assume_channel_last_layout": false,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 38,
+          "kind": "replace_input",
+          "from": "wa/se/Unsqueeze_1_output_0",
+          "to": "wa/se/Gather_1_output_0"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/se/Unsqueeze_1_output_0",
+        "wa/se/Gather_1_output_0"
+      ]
+    },
+    {
+      "identifier": 43,
+      "onnx_op_type": "Unsqueeze",
+      "onnx_op_name": "wa/se/Unsqueeze_3",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Unsqueeze_3_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Gather_1_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 20,
+      "producer_op_type": "GATHER",
+      "assume_channel_last_layout": false,
+      "status": "rewritten",
+      "is_rewritten": true,
+      "rewrite_events": [
+        {
+          "event_index": 13,
+          "kind": "replace_input",
+          "from": "wa/se/Unsqueeze_3_output_0",
+          "to": "wa/se/Unsqueeze_1_output_0"
+        },
+        {
+          "event_index": 38,
+          "kind": "replace_input",
+          "from": "wa/se/Unsqueeze_1_output_0",
+          "to": "wa/se/Gather_1_output_0"
+        }
+      ],
+      "rewrite_name_chain": [
+        "wa/se/Unsqueeze_3_output_0",
+        "wa/se/Unsqueeze_1_output_0",
+        "wa/se/Gather_1_output_0"
+      ]
+    },
+    {
+      "identifier": 44,
+      "onnx_op_type": "Concat",
+      "onnx_op_name": "wa/se/Concat",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Concat_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Concat_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 21,
+      "producer_op_type": "CONCATENATION",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Concat_output_0"
+      ]
+    },
+    {
+      "identifier": 45,
+      "onnx_op_type": "Concat",
+      "onnx_op_name": "wa/se/Concat_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Concat_1_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Concat_1_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 22,
+      "producer_op_type": "CONCATENATION",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Concat_1_output_0"
+      ]
+    },
+    {
+      "identifier": 46,
+      "onnx_op_type": "Reshape",
+      "onnx_op_name": "wa/se/Reshape",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Reshape_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Reshape_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 30,
+      "producer_op_type": "RESHAPE",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Reshape_output_0"
+      ]
+    },
+    {
+      "identifier": 47,
+      "onnx_op_type": "Gemm",
+      "onnx_op_name": "wa/se/fc/fc.0/Gemm",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/fc/fc.0/Gemm_output_0",
+      "resolved_tflite_tensor_name": "wa/se/fc/fc.0/Gemm_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 31,
+      "producer_op_type": "FULLY_CONNECTED",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/fc/fc.0/Gemm_output_0"
+      ]
+    },
+    {
+      "identifier": 48,
+      "onnx_op_type": "Relu",
+      "onnx_op_name": "wa/se/fc/fc.1/Relu",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/fc/fc.1/Relu_output_0",
+      "resolved_tflite_tensor_name": "wa/se/fc/fc.1/Relu_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 32,
+      "producer_op_type": "RELU",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/fc/fc.1/Relu_output_0"
+      ]
+    },
+    {
+      "identifier": 49,
+      "onnx_op_type": "Gemm",
+      "onnx_op_name": "wa/se/fc/fc.2/Gemm",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/fc/fc.2/Gemm_output_0",
+      "resolved_tflite_tensor_name": "wa/se/fc/fc.2/Gemm_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 33,
+      "producer_op_type": "FULLY_CONNECTED",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/fc/fc.2/Gemm_output_0"
+      ]
+    },
+    {
+      "identifier": 50,
+      "onnx_op_type": "Sigmoid",
+      "onnx_op_name": "wa/se/fc/fc.3/Sigmoid",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/fc/fc.3/Sigmoid_output_0",
+      "resolved_tflite_tensor_name": "wa/se/fc/fc.3/Sigmoid_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 2,
+      "producer_operator_index": 34,
+      "producer_op_type": "LOGISTIC",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/fc/fc.3/Sigmoid_output_0"
+      ]
+    },
+    {
+      "identifier": 51,
+      "onnx_op_type": "Reshape",
+      "onnx_op_name": "wa/se/Reshape_1",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Reshape_1_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Reshape_1_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 42,
+      "producer_op_type": "RESHAPE",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Reshape_1_output_0"
+      ]
+    },
+    {
+      "identifier": 52,
+      "onnx_op_type": "Mul",
+      "onnx_op_name": "wa/se/Mul",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/se/Mul_output_0",
+      "resolved_tflite_tensor_name": "wa/se/Mul_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 43,
+      "producer_op_type": "MUL",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/se/Mul_output_0"
+      ]
+    },
+    {
+      "identifier": 53,
+      "onnx_op_type": "GlobalAveragePool",
+      "onnx_op_name": "wa/head/head.0/GlobalAveragePool",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/head/head.0/GlobalAveragePool_output_0",
+      "resolved_tflite_tensor_name": "wa/head/head.0/GlobalAveragePool_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 44,
+      "producer_op_type": "MEAN",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/head/head.0/GlobalAveragePool_output_0"
+      ]
+    },
+    {
+      "identifier": 54,
+      "onnx_op_type": "Flatten",
+      "onnx_op_name": "wa/head/head.1/Flatten",
+      "onnx_output_index": 0,
+      "onnx_output_name": "wa/head/head.1/Flatten_output_0",
+      "resolved_tflite_tensor_name": "wa/head/head.1/Flatten_output_0",
+      "exists_in_final_model": true,
+      "is_graph_output": false,
+      "consumer_count": 1,
+      "producer_operator_index": 45,
+      "producer_op_type": "RESHAPE",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "wa/head/head.1/Flatten_output_0"
+      ]
+    },
+    {
+      "identifier": 55,
+      "onnx_op_type": "Gemm",
+      "onnx_op_name": "wa/head/head.3/Gemm",
+      "onnx_output_index": 0,
+      "onnx_output_name": "output",
+      "resolved_tflite_tensor_name": "output",
+      "exists_in_final_model": true,
+      "is_graph_output": true,
+      "consumer_count": 0,
+      "producer_operator_index": 46,
+      "producer_op_type": "FULLY_CONNECTED",
+      "assume_channel_last_layout": false,
+      "status": "direct",
+      "is_rewritten": false,
+      "rewrite_events": [],
+      "rewrite_name_chain": [
+        "output"
+      ]
+    }
+  ]
+}
