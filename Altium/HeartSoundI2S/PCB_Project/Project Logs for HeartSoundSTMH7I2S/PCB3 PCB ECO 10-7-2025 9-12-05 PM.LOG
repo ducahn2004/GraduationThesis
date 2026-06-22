@@ -1,0 +1,7 @@
+Change Component Description : Designator=J2 Old Description=Circular Connector, 02P EP SHRD HDR ASMY, WHITE Economy Power Series New Description=Circular Connector, 02P EP SHRD HDR ASMY, WHITE Economy Power Series | TE Connectivity 1877285-2
+Change Component Description : Designator=D1 Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Change Component Description : Designator=D2 Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Change Component Description : Designator=D3 Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=+3.3V Pin=U1-20
+Added Pin To Net: NetName=+3.3V Pin=U1-21

@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=GND Pin=J2-5
+Change Component Footprint: Designator=J2 Old Footprint=CONN_A-4094-05A_MOL New Footprint=HDRV4W90P0X254_1X4_994X249X560P
+Change Component Comment : Designator=J2 Old Comment=22052051 New Comment=90120-0764
+Change component parameters: Designator = "J2" ("J2"); Footprint = "CONN_A-4094-05A_MOL"; UniqueID = "\TRFWVFWJ" ("\TRFWVFWJ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.molex.com/webdocs/datasheets/pdf/en-us/0901200764_PCB_HEADERS.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "5.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "90120-0764"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "538-90120-0764"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Molex/90120-0764?qs=QSnLD11VNirsMTdnHEPG3Q%3D%3D"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SW_MINI-SPDT-SW
+Add Component: Footprint Not Found SW_MINI-SPDT-SW
+Added Pin To Net: NetName=GND Pin=J2-4
+Add Pin To Net: Unknown Pin: Pin S1-1
+Add Pin To Net: Unknown Pin: Pin S1-2
+Add Pin To Net: Unknown Pin: Pin S1-3
+Add Pin To Net: Unknown Pin: Pin S2-1
+Add Pin To Net: Unknown Pin: Pin S2-2
+Add Pin To Net: Unknown Pin: Pin S2-3
+Added Pin To Net: NetName=SIGNAL Pin=U1-7
+Add Class Member: Failed to add class member : Component S1 MINI-SPDT-SW
+Add Class Member: Failed to add class member : Component S2 MINI-SPDT-SW

@@ -1,0 +1,11 @@
+Change Component Comment : Designator=C8 Old Comment=20pF New Comment=12pF
+Change Component Comment : Designator=C9 Old Comment=20pF New Comment=12pF
+Change Component Comment : Designator=Y1 Old Comment=24MHz New Comment=26MHz
+Change Component Comment : Designator=C10 Old Comment=104 New Comment=12.5pF
+Change Component Comment : Designator=C11 Old Comment=104 New Comment=12.5pF
+Change Component Description : Designator=Y1 Old Description= New Description=3225SMD
+Change Component Description : Designator=Y2 Old Description=32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead New Description=32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead
+3215SMD
+Change Component Description : Designator=J3 Old Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT New Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT | TE Connectivity 3-644456-2
+Change Component Description : Designator=POWER Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Change Component Description : Designator=RESULT Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=PH1-OSC_OUT Pin=C8-1
+Removed Pin From Net: NetName=PH0-OSC-IN Pin=C9-1
+Removed Pin From Net: NetName=PH1-OSC_OUT Pin=Y1-1
+Removed Pin From Net: NetName=PH0-OSC-IN Pin=Y1-3
+Added Pin To Net: NetName=PH0-OSC-IN Pin=C8-1
+Added Pin To Net: NetName=PH1-OSC_OUT Pin=C9-1
+Added Pin To Net: NetName=PH0-OSC-IN Pin=Y1-1
+Added Pin To Net: NetName=PH1-OSC_OUT Pin=Y1-3

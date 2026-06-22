@@ -1,0 +1,17 @@
+Change Component Comment : Designator=R5 Old Comment=5.1k New Comment=1K
+Change Component Comment : Designator=C1 Old Comment=100nF New Comment=0.1uF
+Change Component Comment : Designator=C5 Old Comment=100nF New Comment=0.1uF
+Change Component Designator: OldDesignator=3.3 NewDesignator=TP1
+Change Component Designator: OldDesignator=3.3 NewDesignator=TP3
+Change Component Designator: OldDesignator=5V NewDesignator=TP2
+Change Component Designator: OldDesignator=GND NewDesignator=TP4
+Change Component Designator: OldDesignator=RESET NewDesignator=RST
+Change Component Description : Designator=J3 Old Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT New Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT | TE Connectivity 3-644456-2
+Change Component Description : Designator=POWER Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Change Component Description : Designator=RESULT Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Added Member To Class: ClassName=Sheet3 Member=Component C13 0.1 µF
+Added Member To Class: ClassName=Sheet3 Member=Component TP3 Test point
+Added Member To Class: ClassName=Sheet3 Member=Component U2 AMS1117-3.3
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2

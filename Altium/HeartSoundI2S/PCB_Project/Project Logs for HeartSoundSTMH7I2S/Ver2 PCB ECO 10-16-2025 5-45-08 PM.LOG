@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=R1-1
+Removed Member From Class: ClassName=Sheet3 Member=R1
+Change Component Designator: OldDesignator=Power NewDesignator=D1
+Change Component Designator: OldDesignator=Result NewDesignator=D3
+Change Component Designator: OldDesignator=SD Card NewDesignator=J2
+Added Pin To Net: NetName=+3.3V Pin=U1-94

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=BAT+ Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-2
+Added Component: Designator=J2(TE_3-644456-2)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/3-644456-2/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "3-644456-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/3-644456-2/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BAT+ Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2

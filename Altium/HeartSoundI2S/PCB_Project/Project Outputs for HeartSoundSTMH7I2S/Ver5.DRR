@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Ver5.PcbDoc   12/19/2025  8:46:04 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Ver5-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : Ver5-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : Ver5-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             54        PTH        7.57inch (192.28mm)
+T2      24mil (0.6mm)                                             Slot              4         PTH        1.50inch (38.15mm)
+T3      40mil (1.02mm)                                            Round             2         PTH        0.10inch (2.54mm)
+T4      20mil (0.5mm)                                             Round             2         NPTH       0.13inch (3.31mm)
+T5      24mil (0.6mm)                                             Round             2         NPTH       0.23inch (5.78mm)
+T6      37mil (0.95mm)                                            Round             2         NPTH       0.27inch (6.80mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              66
+
+Total Processing Time (hh:mm:ss) : 00:00:01

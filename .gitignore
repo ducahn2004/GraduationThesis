@@ -1,0 +1,4 @@
+Model/data/ 
+Model/saved/**/*.pth 
+*.npz 
+*.h5 

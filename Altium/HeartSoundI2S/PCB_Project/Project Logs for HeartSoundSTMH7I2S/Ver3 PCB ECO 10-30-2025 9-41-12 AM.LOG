@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=PH0-OSC-IN Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=PC15-OSC32-OUT Pin=R8-1
+Removed Pin From Net: NetName=PC15-OSC32-IN Pin=R9-1
+Removed Pin From Net: NetName=GND Pin=Y2-1
+Removed Pin From Net: NetName=GND Pin=Y2-2
+Removed Member From Class: ClassName=Sheet3 Member=R8
+Removed Member From Class: ClassName=Sheet3 Member=R9
+Change Component Description : Designator=J3 Old Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT New Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT | TE Connectivity 3-644456-2
+Change Component Description : Designator=POWER Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Change Component Description : Designator=RESULT Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Added Pin To Net: NetName=PH0-OSC-IN Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=PC15-OSC32-OUT Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=PC15-OSC32-IN Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=PH0-OSC-IN Pin=Y1-1
+Added Pin To Net: NetName=PH1-OSC_OUT Pin=Y1-3
+Added Pin To Net: NetName=PC15-OSC32-OUT Pin=Y2-1
+Added Pin To Net: NetName=PC15-OSC32-IN Pin=Y2-2

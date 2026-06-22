@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=D1-C
+Change Component Designator: OldDesignator=RESULT NewDesignator=D3
+Change Component Designator: OldDesignator=RST NewDesignator=*
+Added Component: Designator=R5(RES_ERJU06J203V)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ERJU06J203V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=NetD1_C Pin=D1-C
+Added Pin To Net: NetName=NetD1_C Pin=R5-2
+Added Net: Name=NetD1_C
+Added Member To Class: ClassName=Sheet3 Member=Component C2 106
+Added Member To Class: ClassName=Sheet3 Member=Component C3 106
+Added Member To Class: ClassName=Sheet3 Member=Component R5 5.1k

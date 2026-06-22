@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=PC15-OSC32-OUT Pin=U1-13
+Change Component Designator: OldDesignator=CHRG NewDesignator=D3
+Change Component Designator: OldDesignator=POWER NewDesignator=D1
+Change Component Designator: OldDesignator=STDBY NewDesignator=D2
+Added Pin To Net: NetName=PH1-OSC_OUT Pin=U1-13
+Added Member To Class: ClassName=Sheet3 Member=Component J2 3-644456-2

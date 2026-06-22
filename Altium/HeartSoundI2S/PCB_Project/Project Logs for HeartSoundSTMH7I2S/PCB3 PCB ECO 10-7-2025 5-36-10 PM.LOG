@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=BAT+ Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-2
+Change Component Description : Designator=D1 Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Change Component Description : Designator=D2 Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Change Component Description : Designator=D3 Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Added Component: Designator=J2(TE_3-644456-2)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/3-644456-2/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "3-644456-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/3-644456-2/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BAT+ Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=+3.3V Pin=U1-20
+Added Pin To Net: NetName=+3.3V Pin=U1-21

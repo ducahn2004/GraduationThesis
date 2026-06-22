@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LedResult Pin=U1-36
+Change Component Designator: OldDesignator= NewDesignator=J1
+Change Component Designator: OldDesignator=3.3 NewDesignator=TP3
+Added Pin To Net: NetName=LedResult Pin=U1-88

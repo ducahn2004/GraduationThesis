@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=CHRG NewDesignator=D3
+Change Component Designator: OldDesignator=Power NewDesignator=D1
+Change Component Designator: OldDesignator=STDBY NewDesignator=D2
+Added Member To Class: ClassName=Sheet3 Member=Component J2 3-644456-2

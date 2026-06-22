@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=+3.3V Pin=C22-1
+Removed Pin From Net: NetName=GND Pin=C22-2
+Removed Pin From Net: NetName=+3.3V Pin=MK2-3
+Removed Pin From Net: NetName=GND Pin=MK2-5
+Change Component Description : Designator=J1 Old Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT New Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT | TE Connectivity 3-644456-2
+Change Component Description : Designator=POWER1 Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Change Component Description : Designator=RESULT1 Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=+3.3V Pin=C22-2
+Added Pin To Net: NetName=GND Pin=MK2-3
+Added Pin To Net: NetName=+3.3V Pin=MK2-5

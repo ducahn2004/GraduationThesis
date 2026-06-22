@@ -1,0 +1,10 @@
+Added Component: Designator=D1(LEDC2012X70N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/597-5411-407F/Dialight/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Dialight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "597-5411-407F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805 Dialight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/597-5411-407F/Dialight/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=V_USB Pin=D1-A
+Added Pin To Net: NetName=NetD1_C Pin=D1-C
+Added Member To Class: ClassName=Sheet2 Member=Component D1 LED

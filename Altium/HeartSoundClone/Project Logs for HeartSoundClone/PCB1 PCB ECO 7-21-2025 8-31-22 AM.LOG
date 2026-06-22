@@ -1,0 +1,12 @@
+Change Component Description : Designator=U2 Old Description=Charge Controller Li-Ion/Li-Pol 15mA to 500mA 4.2V 8-Pin DFN EP New Description=Charge Controller Li-Ion/Li-Pol 15mA to 500mA 4.2V 8-Pin DFN EP | Microchip Technology Inc. MCP73831-2ACI/MC
+Change Component Description : Designator=D1 Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Add Component: Footprint Not Found SW_MINI_SPDT_SW
+Add Component: Footprint Not Found SW_MINI_SPDT_SW
+Add Pin To Net: Unknown Pin: Pin S1-1
+Add Pin To Net: Unknown Pin: Pin S1-2
+Add Pin To Net: Unknown Pin: Pin S1-3
+Add Pin To Net: Unknown Pin: Pin S2-1
+Add Pin To Net: Unknown Pin: Pin S2-2
+Add Pin To Net: Unknown Pin: Pin S2-3
+Add Class Member: Failed to add class member : Component S1 MINI-SPDT-SW
+Add Class Member: Failed to add class member : Component S2 MINI-SPDT-SW

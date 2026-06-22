@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=* NewDesignator=RST
+Change Component Designator: OldDesignator=D1 NewDesignator=POWER
+Change Component Designator: OldDesignator=D3 NewDesignator=RESULT
+Change Component Designator: OldDesignator=J2 NewDesignator=SD Card
+Change Net Name : Old Net Name=Net*_2 New Net Name=NetC4_1
+Change Net Name : Old Net Name=NetD1_C New Net Name=NetPOWER_C
+Change Net Name : Old Net Name=NetD3_C New Net Name=NetR2_2

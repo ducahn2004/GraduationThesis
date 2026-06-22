@@ -1,0 +1,9 @@
+/base
+/logger
+/__pycache__
+/config/__pycache__
+/utils/__pycache__
+/trainer/__pycache__
+/model/__pycache__
+/image
+*.ini

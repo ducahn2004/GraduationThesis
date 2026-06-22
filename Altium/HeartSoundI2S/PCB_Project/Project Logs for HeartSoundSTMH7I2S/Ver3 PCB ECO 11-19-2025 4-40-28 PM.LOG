@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=D6-A
+Removed Pin From Net: NetName=+3.3V Pin=D6-C
+Removed Member From Class: ClassName=Sheet3 Member=D6
+Change Component Description : Designator=J3 Old Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT New Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT | TE Connectivity 3-644456-2
+Change Component Description : Designator=POWER Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Change Component Description : Designator=RESULT Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F

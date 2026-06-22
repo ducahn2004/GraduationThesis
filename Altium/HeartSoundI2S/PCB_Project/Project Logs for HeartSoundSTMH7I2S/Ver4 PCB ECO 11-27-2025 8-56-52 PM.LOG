@@ -1,0 +1,27 @@
+Change Component Comment : Designator=C4 Old Comment=104 New Comment=0.1 µF
+Change Component Comment : Designator=C12 Old Comment=104 New Comment=0.1 µF
+Change Component Comment : Designator=C13 Old Comment=104 New Comment=0.1 µF
+Change Component Comment : Designator=C2 Old Comment=106 New Comment=10 µF
+Change Component Comment : Designator=C3 Old Comment=106 New Comment=10 µF
+Change Component Description : Designator=C2 Old Description=10000 pF Â±5% 16V Ceramic Capacitor X7R 0805 (2012 Metric) New Description=10uF 0805 SMD
+Change Component Description : Designator=C3 Old Description=10000 pF Â±5% 16V Ceramic Capacitor X7R 0805 (2012 Metric) New Description=10uF 0805 SMD
+Added Component: Designator=C1(CAPC2012X94N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CL10B104KB8NNNC/Samsung/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CL10B104KB8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1608-2 SAMSUNG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CL10B104KB8NNNC/Samsung/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAPC2012X94N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CL10B104KB8NNNC/Samsung/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CL10B104KB8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1608-2 SAMSUNG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CL10B104KB8NNNC/Samsung/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=+3.3V Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Member To Class: ClassName=Sheet3 Member=Component C1 100nF
+Added Member To Class: ClassName=Sheet3 Member=Component C5 100nF

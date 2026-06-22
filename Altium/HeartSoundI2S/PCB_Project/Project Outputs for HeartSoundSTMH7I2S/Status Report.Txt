@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [HeartSoundSTMH7I2S.PrjPcb]
+   Generated File[Ver5-RoundHoles-Plated.TXT]
+   Generated File[Ver5-RoundHoles-NonPlated.TXT]
+   Generated File[Ver5-SlotHoles-Plated.TXT]
+   Generated File[Ver5.LDP]
+   Generated File[Ver5.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 8:46:05 PM On 12/19/2025

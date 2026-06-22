@@ -1,0 +1,4 @@
+epoch,train_loss,train_accuracy,val_loss,val_accuracy,val_F1_score,val_sensitivity,val_specificity,val_MAcc
+1,0.1279714936494384,0.7695167286245354,0.1544264010859258,0.6381222943722944,0.7102229054573405,"sensitivity    0.395076
+sensitivity    0.395076
+Name: average, dtype: object",0.40388349514563104,0.636152273888605

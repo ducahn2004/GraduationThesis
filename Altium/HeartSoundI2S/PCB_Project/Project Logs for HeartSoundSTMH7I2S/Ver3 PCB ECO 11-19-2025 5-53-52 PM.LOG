@@ -1,0 +1,21 @@
+Change Component Footprint: Designator=C4 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X94N
+Change Component Footprint: Designator=C6 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X94N
+Change Component Footprint: Designator=C7 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X94N
+Change Component Footprint: Designator=C8 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X94N
+Change Component Footprint: Designator=C9 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X94N
+Change Component Footprint: Designator=C10 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X94N
+Change Component Footprint: Designator=C11 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X94N
+Change Component Footprint: Designator=C12 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X94N
+Change Component Footprint: Designator=C13 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X94N
+Change Component Description : Designator=C4 Old Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=CAP 0805
+Change Component Description : Designator=C6 Old Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=CAP 0805
+Change Component Description : Designator=C7 Old Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=CAP 0805
+Change Component Description : Designator=C8 Old Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=CAP 0805
+Change Component Description : Designator=C9 Old Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=CAP 0805
+Change Component Description : Designator=C10 Old Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=CAP 0805
+Change Component Description : Designator=C11 Old Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=CAP 0805
+Change Component Description : Designator=C12 Old Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=CAP 0805
+Change Component Description : Designator=C13 Old Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=CAP 0805
+Change Component Description : Designator=J3 Old Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT New Description=HEADER ASSEMBLY, NARROW, MTA-100, 2 POSITION, STRAIGHT | TE Connectivity 3-644456-2
+Change Component Description : Designator=POWER Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
+Change Component Description : Designator=RESULT Old Description=SMD LED 0805 YG 7 New Description=SMD LED 0805 YG 7 | Dialight 597-5411-407F
